@@ -1,0 +1,38 @@
+FULL STACK  
+
+frontend
+front is the visual and interactive layer of a website or application that users directly see and interact with through the webbrowser or mobile app.
+it is also called the client side because it runs on the users device(browsr/MOBILE)
+
+responsibilities of frontend 
+displays web pages and user interface(UI)
+accepts user input (forms,buttons,search boxes)
+validites user inputs before sending it to the sever
+calls backend APIS to fetch or send data
+displays the response received from the backend
+provides animations ad interactive effects
+
+backend
+backend is the server-side part of an application
+users cannont see it directly but it performs all business logic, security,data processing and database operations
+it acts the brain of the application 
+
+responsibilities of backend
+1.process clients request 
+2implements business logic
+3connects with database 
+4preforms crud operation
+5authenticates and authorize users
+6encrytes passwords and sensitive data 
+7generate reports
+8returns response to the frontend 
+
+API(Application programming interfaces)
+An API is a set of rules and protocols that allows to different application or systems to communicate and exchange data without exposing their internal implementation 
+it acts as bridge b/w frontend & backend two different software systems
+
+Restusant analogy 
+you(clinet)-----> gives ordr to waites(API)
+-------> kitchen(server) prepare food 
+kitchen------> gives food to writes(API)
+------>you receive you meal.
