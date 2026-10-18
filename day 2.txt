@@ -1,0 +1,57 @@
+MySQL
+
+client-server-Arch :
+
+client:
+The role of the client in client-server arch is to send request to the server & to get response from the server.
+server
+Server:
+is a software the role of the server in client-server arch is to take request from clients & to give that response to the client.
+protocol:
+It is a set of rules & regulations the role of the protocol in client server arch is to
+
+what is data, field, record, database?
+
+• what is data?
+	• Raw facts or figures without context.
+	• ex: 101, Ravi, 50000, hyd
+• what is field?
+	• Smallest unit of data in a database (column / attribute).
+	• ex: empid, empname, empsalary, empaddress
+• what is record?
+	• Collection related fields (row / tuple).
+	• ex: (101, Ravi, 50000, hyd)
+• what is database?
+	• Organized collection of related records stored together.
+	• ex: an employee database contain all employee record
+
+Data VS Database VS DBMS 
+
+Data :
+Data is a collection of raw facts & figures. It can be a name, number, date, marks.
+
+Database :
+A database is an organized collection of related data stored together. So that it can be easily accessed, managed & updated.
+ex: banking database
+    hospital database
+    online shopping database
+
+DBMS :
+DBMS stands for Database Management System. A DBMS is a software used to create, store, retrieve, update & manage databases.
+ex: my SQL, ORACLE, DB2, Postgre SQL etc.
+
+SQL Identifiers & rules :
+SQL Identifiers are names to identify database objects such as database names, table names, column names, view names, index names, stored procedures, trigger names. While declaring an identifiers we have to follow certain rules & regulations.
+1. the only allowed characters to declare identifiers are A-Z or a-z, $, _ , -
+2. identifiers should not start with digit
+3. spaces are not considered to declare identifiers.
+4. we can't declare identifiers with reserved words.
+5. the maximum length to declare identifiers are 15
+
+Examples
+Valid identifiers              Invalid identifiers
+Student                         123 student
+student_name                    student name 
+_student                        select ---->(reserved word)
+$_Salary                        employee name
+employee_123
